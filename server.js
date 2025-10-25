@@ -30,6 +30,7 @@ app.post("/api/generate", async (req, res) => {
         },
       }
     );
+    
 
     res.json({ result: output });
   } catch (error) {
