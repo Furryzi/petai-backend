@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-app.get("/", (req, res) => {
+app.post("/api/generate", async (req, res) => {
   res.send("AI Pet Backend is running 🚀");
 });
 
